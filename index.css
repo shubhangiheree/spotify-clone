@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensures the body covers the full viewport height */
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex; 
+}
+
+.left {
+    width: 25vw;
+    padding: 28px;
+}
+
+.right {
+    width: 75vw;
+    padding: 30px;
+    padding-top: 35px;
+ 
+}
+
+.home ul li {
+    display: flex;
+    width: 30px;
+    list-style: none;
+    gap: 8px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.logo img {
+    display: flex;
+    width: 50px;
+    gap: 20px;
+}
+.library{
+    min-height: 70vh;
+}
+.footer{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    width: 20px;
+    gap: 8px;
+    padding-top: 25px;
+    font-weight: bold;
+    align-items: center;
+}
+.heading h2{
+    width: 7px;
+}
+.footer{
+    display: flex;
+    font-size: 20px;
+    color:rgb(255, 253, 253);
+    gap:10px;
+    
+}
+.footer{
+    cursor: pointer;
+}
+.footer:hover{
+    color: grey;
+}
+.footer:active{
+color: red;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 5vh;
+}
+.playlist{
+    display: flex;
+    min-height: 87vh;
+    margin: 30px;
+
+}
+.playlist{
+    padding: 16px;
+}
+.playlist.card-container{
+    margin: 10px;
+    padding: 10px;
+}
+.playlist.card{
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(9, 9, 9) ;
+    width: 100%;
+    object-fit: contain;
+}
+.card >*{
+    padding-top: 3px;
+}
